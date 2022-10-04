@@ -1,0 +1,106 @@
+/* All document */
+*{
+    font-family: 'Roboto Slab', serif;
+    background-color: #ebebeb;
+}
+h1{
+    color: #dd5555;
+    background-color: white;
+    text-align: center;
+}
+h2{
+    color: #7d7e7d;
+    background-color: white;
+    text-align: center;
+}
+p{
+    color: #7d7e7d;
+    background-color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+/* Section : INVENTOR */
+#inventor{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #7d7e7d;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.introduction{
+    background-color: white;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+button{
+    background-color: #dd5555;
+    color: white;
+    padding: 10px;
+    border-radius: 5%;
+    border: none;
+    font-weight: 600;
+    
+}
+/* Section : SOCIAL */
+.socialmedia{
+    background-color: white;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 30px;
+    text-align: center;            
+}
+.socialmedialogo, ul, li{
+    list-style: none;
+    color: #7d7e7d;
+    background-color: white;
+    display: inline-block;
+    word-spacing: 40px;
+}
+                                            /* /! AGRANDIR LE LOGO ?????*/
+.socialmedialogo, i{
+    max-height: 200px;
+    width: auto;
+    background-color: white;
+}
+
+/* Section : MOVIE  */
+.movies{
+    background-color: white;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 30px;
+    text-align: center;            
+}
+table, tr, th, td{
+    background-color: white;
+    text-align: justify;
+    color: #7d7e7d;
+    padding: 0px;
+    margin: 0px;
+}
+.movieposter{
+    float: left;
+}
